@@ -191,7 +191,11 @@ _Note that Flutter version `3.0` or later is required to build the plugin._
    make all
    ```
    
-6. Build Linux
+6. Build Linux In the project root folder run the below command 
+    ```shell 
+    flutter pub get
+    ```
+
    Navigate to `rust` directory, and run the below command
    ```shell
     ./build_linux.sh
