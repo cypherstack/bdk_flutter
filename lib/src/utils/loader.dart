@@ -6,7 +6,7 @@ import '../generated/bindings.dart';
 DynamicLibrary _open() {
   if (Platform.isIOS) {
     return DynamicLibrary.process();
-  } else if (Platform.isAndroid) {
+  } else if (Platform.isAndroid || Platform.isLinux) {
     return DynamicLibrary.open("librust_bdk_ffi.so");
   } else {
     return DynamicLibrary.executable();

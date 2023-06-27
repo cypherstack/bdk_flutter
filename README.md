@@ -190,6 +190,12 @@ _Note that Flutter version `3.0` or later is required to build the plugin._
    cargo build
    make all
    ```
+   
+6. Build Linux
+   Navigate to `rust` directory, and run the below command
+   ```shell
+    ./build_linux.sh
+```
 
 ### _Generating Docs Manually (Optional)_
 
