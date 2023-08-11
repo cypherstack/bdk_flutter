@@ -1,5 +1,29 @@
 ### Bdk Flutter
 
+<p>
+  <a href="https://github.com/LtbLightning/bdk-flutter/blob/HEAD/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="BDK is released under the MIT license." />
+  </a>
+  <a href="https://pub.dev/documentation/bdk_flutter/latest/">
+    <img src="https://img.shields.io/badge/docs-red.svg" alt="Docs" />
+  </a>
+  <a href="https://pub.dev/packages/bdk_flutter">
+    <img src="https://img.shields.io/pub/v/bdk_flutter?color=blueviolet" alt="Current pub package version." />
+  </a>
+    <a href="https://github.com/LtbLightning/bdk-flutter/issues">
+    <img src="https://img.shields.io/github/issues/LtbLightning/bdk-flutter.svg" alt="Issues" />
+  </a>
+  <a href="https://github.com/LtbLightning/bdk-flutter/stargazers">
+    <img src="https://img.shields.io/github/stars/LtbLightning/bdk-flutter.svg" alt="Stars" />
+  </a>
+  <a href="https://github.com/LtbLightning/bdk-flutter/forks">
+    <img src="https://img.shields.io/github/forks/LtbLightning/bdk-flutter.svg?color=brightgreen" alt="Forks" />
+  </a>
+  <a href="https://github.com/LtbLightning/bdk-flutter-quickstart">
+    <img src="https://img.shields.io/badge/Demo App-orange" alt="Demo App" />
+  </a>
+</p>
+
 A Flutter library for the [Bitcoin Development Kit](https://bitcoindevkit.org/).
 The bdk library aims to be the core building block for Bitcoin Applications of any kind.
 
@@ -15,7 +39,7 @@ To use the `bdk_flutter` package in your project, add it as a dependency in your
 
 ```dart
 dependencies:
-  bdk_flutter: ^0.28.3
+  bdk_flutter: ^0.29.0
 ```
 
 ### Examples
@@ -206,7 +230,12 @@ _Note that Flutter version `3.0` or later is required to build the plugin._
 
 Please use the [Dart documentation generator](https://pub.dev/packages/dartdoc) to generate the API documentation.
 
-_Note: Caution this is pre-Alpha at this stage
+
+### References:
+- Setting up a local Esplora instance for testing:
+https://bitcoin.stackexchange.com/questions/116937/how-do-i-setup-an-esplora-instance-for-local-testing/116938#116938
+
+_Note: Caution this is Beta at this stage
 Please consider reviewing, experimenting, and contributing ⚡️_
 
 Thanks for taking a look!
