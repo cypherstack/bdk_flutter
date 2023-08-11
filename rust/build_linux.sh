@@ -3,5 +3,10 @@
 echo "Building x86_64 version"
 
 cargo build --target x86_64-unknown-linux-gnu --release --lib
+
+
+if [ -e "../linux/bin/x86_64-unknown-linux-gnu/release/librust_bdk_ffi.so" ];
+ then rm ../linux/bin/x86_64-unknown-linux-gnu/release/librust_bdk_ffi.so
+fi
 mkdir -p ../linux/bin/x86_64-unknown-linux-gnu/release
 cp target/x86_64-unknown-linux-gnu/release/librust_bdk_ffi.so ../linux/bin/x86_64-unknown-linux-gnu/release/
